@@ -84,8 +84,10 @@ defmodule LiftiexWeb do
 
       # HTML escaping functionality
       import Phoenix.HTML
+
       # Core UI components
       import LiftiexWeb.CoreComponents
+      import LiftiexWeb.InputComponents
 
       # Common modules used in templates
       alias Phoenix.LiveView.JS
